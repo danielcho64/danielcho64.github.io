@@ -5,8 +5,8 @@ import Loader from "./components/Loader/Loader";
 const Home = lazy(() => import("./pages/Home/Home"));
 const Projects = lazy(() => import("./pages/Projects/Projects"));
 const Experience = lazy(() => import("./pages/Experience/Experience"));
-const Involvements = lazy(() => import("./pages/Involvements/Involvements"));
-const Achievements = lazy(() => import("./pages/Achievements/Achievements"));
+const Education = lazy(() => import("./pages/Education/Education"));
+const Certifications = lazy(() => import("./pages/Certifications/Certifications"));
 const NotFound = lazy(() => import("./pages/NotFound/NotFound"));
 
 const App = () => {
@@ -20,10 +20,10 @@ const App = () => {
         return <Projects />;
       case "experience":
         return <Experience />;
-      case "involvements":
-        return <Involvements />;
-      case "achievements":
-        return <Achievements />;
+      case "education":
+        return <Education />;
+      case "certifications":
+        return <Certifications />;
       default:
         return <NotFound />;
     }

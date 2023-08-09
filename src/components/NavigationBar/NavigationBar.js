@@ -60,24 +60,24 @@ const NavigationBar = (props) => {
               Experience
             </Nav.Link>
             <Nav.Link
-              eventKey="involvements"
+              eventKey="education"
               className={
-                props.currentTab === "involvements"
+                props.currentTab === "education"
                   ? styles.activeLink
                   : styles.inactiveLink
               }
             >
-              Involvements
+              Education
             </Nav.Link>
             <Nav.Link
-              eventKey="achievements"
+              eventKey="certifications"
               className={
-                props.currentTab === "achievements"
+                props.currentTab === "certifications"
                   ? styles.activeLink
                   : styles.inactiveLink
               }
             >
-              Achievements
+              Certifications
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

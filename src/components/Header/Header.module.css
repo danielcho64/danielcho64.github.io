@@ -33,7 +33,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.involvements {
+.education {
   background: #198754; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -47,7 +47,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.achievements {
+.certifications {
   background: #fc4a1a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,

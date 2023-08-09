@@ -6,8 +6,8 @@ const Header = (props) => {
   const backgroundStyle = {
     Projects: styles.projects,
     Experience: styles.experience,
-    Involvements: styles.involvements,
-    Achievements: styles.achievements,
+    Education: styles.education,
+    Certifications: styles.certifications,
   };
   return (
     <Container

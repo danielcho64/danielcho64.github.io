@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import { Header, AchievementCard } from "../../components";
-import achievementsData from "../../data/Achievements.json";
-import styles from "./Achievements.module.css";
+import certificationsData from "../../data/Certifications.json";
+import styles from "./Certifications.module.css";
 
-const Achievements = () => {
+const Certifications = () => {
   return (
     <React.Fragment>
-      <Header title="Achievements" />
+      <Header title="Certifications" />
       <Container fluid className={styles.container}>
         <Row
           style={{
@@ -16,7 +16,7 @@ const Achievements = () => {
             alignItems: "center",
           }}
         >
-          {achievementsData.map((obj, index) => (
+          {certificationsData.map((obj, index) => (
             <AchievementCard
               key={index}
               title={obj.title}
@@ -30,4 +30,4 @@ const Achievements = () => {
   );
 };
 
-export default Achievements;
+export default Certifications;
